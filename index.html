@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciber Space</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div id="main_conteiner">
+        <h1>Ciber<span> Space</span></h1>
+        <div id="input_conteiner">
+            <input  placeholder="Task here" type="text" id="inputArea">
+            <button id="addBtn">BTN</button> 
+        </div>
+        <div id="stater_conteiner">
+            <div id="tasks_container" ondrop="drop(event)" ondragover="allowDrop(event)">
+               <h1>Iniciar</h1>
+            </div>
+            <div id="in_proccess" ondrop="drop(event)" ondragover="allowDrop(event)">
+               <h1>En curso</h1>
+            </div>
+            <div id="finished" ondrop="drop(event)" ondragover="allowDrop(event)">
+               <h1>final</h1>
+            </div>
+        </div> 
+    </div>
+    <script src="./script.js" ></script>
+</body>
+</html>
